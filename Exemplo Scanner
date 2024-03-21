@@ -1,0 +1,19 @@
+package aula03;
+import java.util.Scanner;
+
+
+public class ExemploScanner {
+public static void main (String[] args) {
+
+Scanner scanner = new Scanner (System.in);
+
+
+System.out.print("Digite a idade da pessoa:");
+int idade = scanner.nextInt();
+System.out.print("A pessoa tem " + idade +" anos.");
+
+
+scanner.close();
+}
+
+}
