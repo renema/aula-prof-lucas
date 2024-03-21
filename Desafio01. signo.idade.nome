@@ -1,0 +1,25 @@
+package aula03;
+import java.util.Scanner;
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		//solicitando nome, idade e signo da pessoa
+		
+		System.out.print("Digite o nome da pessoa");
+				String nome = scanner.nextLine();
+				
+				System.out.print("Digite signo da pessoa");
+				String signo = scanner.nextLine();
+				
+				System.out.print("Digite a idade da pessoa");
+				int idade = scanner.nextInt();
+				
+				
+				//emitindo a mensagem com o nome e a idade e o signo da pessoa
+				
+				System.out.print( nome + " tem " +idade + " anos " +signo+ " pessoa");	
+				scanner.close();
+	}
+
+}
