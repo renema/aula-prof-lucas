@@ -1,0 +1,21 @@
+package aula04;
+import java.util.Scanner;
+public class Exercicioifelse01 {
+
+	public static void main(String[] args) {
+	//declarando a nota
+		Scanner scanner = new Scanner(System.in);
+		int nota = scanner.nextInt();
+		
+		if(nota>=70 & nota < 90) {
+			System.out.println("aprovado");
+		}
+		
+		else {
+			System.out.println("Reprovado");
+	
+		}
+		scanner.close();
+	}
+	
+}
