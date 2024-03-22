@@ -1,0 +1,47 @@
+package aula05;
+import java.util.Scanner;
+public class Desafio03 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("selecione 1 adição , 2 subitração , 3 divisão 4 multiplicação:");
+		int conta = scanner.nextInt();
+		
+		System.out.println("Digite um numero :");
+		int num1 = scanner.nextInt();
+		
+		System.out.println("Digite um numero :");
+		int num2 = scanner.nextInt();
+		
+		switch (conta) {
+		case 1:
+			conta  = num1+num2;
+			System.out.print(conta);
+			break;
+			
+		case 2:
+			conta  = num1-num2;
+			System.out.print(conta);
+			break;
+			
+		case 3:
+			conta  = num1/num2;
+			System.out.print(conta);
+			break;
+			
+		case 4:
+			conta  = num1*num2;
+			System.out.print(conta);
+			break;
+			
+			default:
+				System.out.print("numero invalido");
+				scanner.close();
+		
+	}
+		
+		
+
+	}
+
+}
