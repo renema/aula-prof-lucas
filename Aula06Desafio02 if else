@@ -1,0 +1,21 @@
+package aula06;
+import java.util.Scanner;
+public class Exercicio02Desafio02 {
+
+	public static void main(String[] args) {
+		System.out.print("Digite um numero");
+		Scanner scanner = new Scanner(System.in);
+		int numero = scanner.nextInt();
+		
+		if(numero % 2 == 0) {
+			System.out.println(" O numero PAR ");
+		}
+		
+		else {
+			System.out.println("O número é Ìmpar");
+		}
+		
+		scanner.close();
+	}
+
+}
