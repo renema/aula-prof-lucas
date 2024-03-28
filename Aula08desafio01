@@ -1,0 +1,24 @@
+package aula06;
+import java.util.Scanner;
+public class Exercicio01Desafio1 {
+
+	public static void main(String[] args) {
+		System.out.print("Digite um numero");
+		Scanner scanner = new Scanner(System.in);
+		int numero = scanner.nextInt();
+		
+		if(numero>0  ) {
+			System.out.println("positivo ");
+		}
+		if  ( numero == 0) {
+			System.out.println("zero");
+		}
+		if ( numero<0) {
+			System.out.println("numero é negativo");
+		
+		}
+	
+		scanner.close();
+	}
+
+}
