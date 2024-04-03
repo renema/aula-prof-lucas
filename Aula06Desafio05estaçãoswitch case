@@ -1,0 +1,81 @@
+package aula06;
+import java.util.Scanner;
+public class Exercicio05Desafio05 {
+
+	public static void main(String[] args) {
+		System.out.print("Digite um mês de (1 a 12)");
+		Scanner scanner = new Scanner(System.in);
+
+		int numero = scanner.nextInt();
+		
+		String estaçãoMes;
+		
+		switch (numero) {
+		case 1:
+			estaçãoMes = "Verão";
+			break;
+			
+			
+			case 2:
+				estaçãoMes = "Verão";
+				break;
+			
+
+			
+				
+				case 3:
+					estaçãoMes = "Verão";
+					break;
+				
+					
+					case 4:
+						estaçãoMes = "Outono";
+						break;
+					
+						
+						case 5:
+							estaçãoMes = "Outono";
+							break;
+						
+							 
+							case 6:
+								estaçãoMes = "Outono";
+								break;
+							
+								 
+								case 7:
+									estaçãoMes = "Inverno";
+									break;
+								
+									 
+									case 8:
+										estaçãoMes = "Inverno";
+										break;
+									
+										
+										case 9:
+											estaçãoMes = "Inverno";
+											break;
+										
+											
+											case 10:
+												estaçãoMes = "Primavera";
+												break;
+											
+												
+												case 11:
+													estaçãoMes = "Primavera";
+													break;
+												
+													
+													case 12:
+														estaçãoMes = "Primavera";
+														break;
+													
+													default:
+														estaçãoMes ="Mes invalido";
+		}
+													System.out.println(" O dia da semana que corresponde ao numero " +numero+ " é " + estaçãoMes);
+													scanner.close();
+	}
+}
