@@ -1,0 +1,14 @@
+package aula07;
+import java.util.Scanner;
+public class Exercici01Desafio01 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String nome = "Rene Marinho";
+		
+		String mensagem = String.format("Olá, meu nome é Rene ");
+		System.out.println(mensagem);
+		scanner.close();
+	}
+	
+}
