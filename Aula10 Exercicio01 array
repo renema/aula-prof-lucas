@@ -1,0 +1,20 @@
+package aula010;
+
+public class Exercicio01Desafio {
+
+	public static void main(String[] args) {
+      
+        int[] array = {2, 4, 6, 8, 10};
+
+        
+        int soma = 0;
+
+        
+        for (int i = 0; i < array.length; i++) {
+            soma += array[i];
+        }
+
+      
+        System.out.println("A soma de todos os elementos no array é: " + soma);
+    }
+}
