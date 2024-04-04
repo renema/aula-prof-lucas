@@ -1,0 +1,30 @@
+package aula07;
+import java.util.Scanner;
+public class Exercicio05Desafio {
+
+	public static void main(String[] args) {
+      
+        Scanner scanner = new Scanner(System.in);
+
+      
+        System.out.println("Digite a nota do primeiro bimestre:");
+        double notaBimestre1 = scanner.nextDouble();
+
+        
+        System.out.println("Digite a nota do segundo bimestre:");
+        double notaBimestre2 = scanner.nextDouble();
+
+       
+        double mediaFinal = (notaBimestre1 + notaBimestre2) / 2;
+
+      
+        System.out.printf("Nota do primeiro bimestre: %.2f\n", notaBimestre1);
+        System.out.printf("Nota do segundo bimestre: %.2f\n", notaBimestre2);
+
+        
+        System.out.printf("Média final: %.2f\n", mediaFinal);
+
+       
+        scanner.close();
+    }
+}
