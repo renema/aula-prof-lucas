@@ -1,0 +1,23 @@
+package aula07;
+import java.util.Scanner;
+public class Exercicio04Desafio {
+
+	 public static void main(String[] args) {
+	        
+	        Scanner scanner = new Scanner(System.in);
+
+	      
+	        System.out.println("Digite o nome da cidade:");
+	        String nomeCidade = scanner.nextLine();
+
+	      
+	        if (nomeCidade.equalsIgnoreCase("Curitiba")) {
+	            System.out.println("O nome fornecido é igual a Curitiba.");
+	        } else {
+	            System.out.println("O nome fornecido não é igual a Curitiba.");
+	        }
+
+	       
+	        scanner.close();
+	    }
+	}
